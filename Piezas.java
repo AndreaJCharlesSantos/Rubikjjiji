@@ -192,13 +192,120 @@ public class Piezas {
         System.out.println("    " + quienEsquina('D', 'L', 'B', 'D') + quienLateral('D', 'B', 'D') + quienEsquina('D', 'R', 'B', 'D'));
         System.out.println("");
     }
-    
+
+    public void iniciaPiezas() {
+        piezaCentral[0].tupla.color[0] = 'B';
+        piezaCentral[0].tupla.orien[0] = 'R';
+        piezaCentral[1].tupla.color[0] = 'Y';
+        piezaCentral[1].tupla.orien[0] = 'F';
+        piezaCentral[2].tupla.color[0] = 'R';
+        piezaCentral[2].tupla.orien[0] = 'U';
+        piezaCentral[3].tupla.color[0] = 'G';
+        piezaCentral[3].tupla.orien[0] = 'L';
+        piezaCentral[4].tupla.color[0] = 'O';
+        piezaCentral[4].tupla.orien[0] = 'D';
+        piezaCentral[5].tupla.color[0] = 'W';
+        piezaCentral[5].tupla.orien[0] = 'B';
+
+        piezaLateral[0].tupla.color[0] = 'R';
+        piezaLateral[0].tupla.orien[0] = 'U';
+        piezaLateral[0].tupla.color[1] = 'Y';
+        piezaLateral[0].tupla.orien[1] = 'F';
+        piezaLateral[1].tupla.color[0] = 'B';
+        piezaLateral[1].tupla.orien[0] = 'R';
+        piezaLateral[1].tupla.color[1] = 'Y';
+        piezaLateral[1].tupla.orien[1] = 'F';
+        piezaLateral[2].tupla.color[0] = 'O';
+        piezaLateral[2].tupla.orien[0] = 'D';
+        piezaLateral[2].tupla.color[1] = 'Y';
+        piezaLateral[2].tupla.orien[1] = 'F';
+        piezaLateral[3].tupla.color[0] = 'G';
+        piezaLateral[3].tupla.orien[0] = 'L';
+        piezaLateral[3].tupla.color[1] = 'Y';
+        piezaLateral[3].tupla.orien[1] = 'F';
+        piezaLateral[4].tupla.color[0] = 'R';
+        piezaLateral[4].tupla.orien[0] = 'U';
+        piezaLateral[4].tupla.color[1] = 'B';
+        piezaLateral[4].tupla.orien[1] = 'R';
+        piezaLateral[5].tupla.color[0] = 'R';
+        piezaLateral[5].tupla.orien[0] = 'U';
+        piezaLateral[5].tupla.color[1] = 'G';
+        piezaLateral[5].tupla.orien[1] = 'L';
+        piezaLateral[6].tupla.color[0] = 'O';
+        piezaLateral[6].tupla.orien[0] = 'D';
+        piezaLateral[6].tupla.color[1] = 'B';
+        piezaLateral[6].tupla.orien[1] = 'R';
+        piezaLateral[7].tupla.color[0] = 'O';
+        piezaLateral[7].tupla.orien[0] = 'D';
+        piezaLateral[7].tupla.color[1] = 'G';
+        piezaLateral[7].tupla.orien[1] = 'L';
+        piezaLateral[8].tupla.color[0] = 'R';
+        piezaLateral[8].tupla.orien[0] = 'U';
+        piezaLateral[8].tupla.color[1] = 'W';
+        piezaLateral[8].tupla.orien[1] = 'B';
+        piezaLateral[9].tupla.color[0] = 'G';
+        piezaLateral[9].tupla.orien[0] = 'L';
+        piezaLateral[9].tupla.color[1] = 'W';
+        piezaLateral[9].tupla.orien[1] = 'B';
+        piezaLateral[10].tupla.color[0] = 'B';
+        piezaLateral[10].tupla.orien[0] = 'R';
+        piezaLateral[10].tupla.color[1] = 'W';
+        piezaLateral[10].tupla.orien[1] = 'B';
+        piezaLateral[11].tupla.color[0] = 'O';
+        piezaLateral[11].tupla.orien[0] = 'D';
+        piezaLateral[11].tupla.color[1] = 'W';
+        piezaLateral[11].tupla.orien[1] = 'B';
+
+        piezaEsquina[0].tupla.color[0] = 'R';
+        piezaEsquina[0].tupla.orien[0] = 'U';
+        piezaEsquina[0].tupla.color[1] = 'Y';
+        piezaEsquina[0].tupla.orien[1] = 'F';
+        piezaEsquina[0].tupla.color[2] = 'B';
+        piezaEsquina[0].tupla.orien[2] = 'R';
+        piezaEsquina[1].tupla.color[0] = 'R';
+        piezaEsquina[1].tupla.orien[0] = 'U';
+        piezaEsquina[1].tupla.color[1] = 'Y';
+        piezaEsquina[1].tupla.orien[1] = 'F';
+        piezaEsquina[1].tupla.color[2] = 'G';
+        piezaEsquina[1].tupla.orien[2] = 'L';
+        piezaEsquina[2].tupla.color[0] = 'O';
+        piezaEsquina[2].tupla.orien[0] = 'D';
+        piezaEsquina[2].tupla.color[1] = 'Y';
+        piezaEsquina[2].tupla.orien[1] = 'F';
+        piezaEsquina[2].tupla.color[2] = 'B';
+        piezaEsquina[2].tupla.orien[2] = 'R';
+        piezaEsquina[3].tupla.color[0] = 'O';
+        piezaEsquina[3].tupla.orien[0] = 'D';
+        piezaEsquina[3].tupla.color[1] = 'Y';
+        piezaEsquina[3].tupla.orien[1] = 'F';
+        piezaEsquina[3].tupla.color[2] = 'G';
+        piezaEsquina[3].tupla.orien[2] = 'L';
+        piezaEsquina[4].tupla.color[0] = 'R';
+        piezaEsquina[4].tupla.orien[0] = 'U';
+        piezaEsquina[4].tupla.color[1] = 'B';
+        piezaEsquina[4].tupla.orien[1] = 'R';
+        piezaEsquina[4].tupla.color[2] = 'W';
+        piezaEsquina[4].tupla.orien[2] = 'B';
+        piezaEsquina[5].tupla.color[0] = 'R';
+        piezaEsquina[5].tupla.orien[0] = 'U';
+        piezaEsquina[5].tupla.color[1] = 'G';
+        piezaEsquina[5].tupla.orien[1] = 'L';
+        piezaEsquina[5].tupla.color[2] = 'W';
+        piezaEsquina[5].tupla.orien[2] = 'B';
+        piezaEsquina[6].tupla.color[0] = 'O';
+        piezaEsquina[6].tupla.orien[0] = 'D';
+        piezaEsquina[6].tupla.color[1] = 'B';
+        piezaEsquina[6].tupla.orien[1] = 'R';
+        piezaEsquina[6].tupla.color[2] = 'W';
+        piezaEsquina[6].tupla.orien[2] = 'B';
+        piezaEsquina[7].tupla.color[0] = 'O';
+        piezaEsquina[7].tupla.orien[0] = 'D';
+        piezaEsquina[7].tupla.color[1] = 'G';
+        piezaEsquina[7].tupla.orien[1] = 'L';
+        piezaEsquina[7].tupla.color[2] = 'W';
+        piezaEsquina[7].tupla.orien[2] = 'B';
+    }
 }
-
-
-
-
-
 
 
 
